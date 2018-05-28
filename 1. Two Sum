@@ -9,8 +9,8 @@ class Solution:
             d = target - nums[i]
             if d in nums:
                 j = nums.index(d)
-                if i!=j:  //judge whether i is equal to j
-                    if i<j : //decide the order of output
+                if i!=j:  #judge whether i is equal to j
+                    if i<j : #decide the order of output
                         return [i, j]
                     else:
                         return [j,i]
